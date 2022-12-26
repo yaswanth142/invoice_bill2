@@ -5,41 +5,46 @@ function App() {
       <div className="border-black border-solid border-4 m-12 ">
         {/* This is section1 Starts */}
         <div className="section1">
-          <div className="mt-8 ml-20">
-            <span className="ml-48 font-bold">TM</span>
-            <div className="bg-black h-18 text-3xl ml-6 p-4 text-center text-white w-48">TRINP</div>
-            <span className="ml-16">PrintingThoughts</span>
-            <div className="bg-black h-32 -mt-32 w-1 ml-96"></div>
+          <div className="lg:mt-8 lg:ml-20 sm:ml-20 sm:mt-4">
+            <div className="sm:mt-16">
+            <span className="lg:ml-48 font-bold sm:-ml-1">TM</span>
+            <div className="lg:bg-black lg:h-20 lg:text-3xl lg:ml-6 lg:p-4 lg:text-center lg:text-white lg:w-48
+            sm:bg-black sm:h-8 sm:text-xl sm:-ml-16 sm:text-center sm:text-white sm:w-24">TRINP</div>
+            <span className="lg:ml-16 sm:-ml-20">PrintingThoughts</span>
+            </div>
+            <div className="lg:bg-black lg:h-32 lg:-mt-32 lg:w-1 lg:ml-96
+            sm:bg-black sm:h-32 sm:-mt-24 sm:w-1 sm:ml-12"></div>
           </div>
-          <div className="float-right text-4xl mr-48 -mt-32 font-bold">
+          <div className="lg:float-right lg:text-4xl lg:mr-48 lg:-mt-32 lg:font-bold
+          sm:float-right sm:text-xl sm:mr-2 sm:-mt-24 sm:font-bold">
             Printfox Impressions Private Limited
             <br />
-            <span className="text-xl font-normal">
+            <span className="lg:text-xl lg:font-normal sm:text-sm sm:font-normal">
               Address : Bannerughatta Road, Bengaluru, Karnataka - 560 076.
             </span>
             <br />
-            <span className="text-xl font-normal">
+            <span className="lg:text-xl lg:font-normal sm:text-sm sm:font-normal">
               E-Mail : trinpprint@gmail.com , PhONE : +91 99 00 424019
             </span>
           </div>
         </div>
         {/* This is section1 End */}
 
-        <div className="bg-black h-1 mt-4 "></div>
+        <div className="lg:bg-black lg:h-1 lg:mt-4 sm:bg-black sm:h-1 sm:mt-2 "></div>
 
         {/* section2 starts */}
 
         <div>
-          <div className="float-left mt-8 ml-8">
+          <div className="lg:float-left lg:mt-8 lg:ml-8 sm:float-left sm:mt-4 sm:ml-2">
             Inv. No. : <b>TRINP048</b>
           </div>
           <center>
-            <div className=" mt-4 underline font-bold">TAX_INVOICE</div>
-            <span className="span4">
+            <div className="lg:mt-4 lg:mr-20 lg:underline lg:font-bold sm:mt-4 sm:underline sm:font-bold sm:mr-24">TAX_INVOICE</div>
+            <span className="sm:text-sm sm:-ml-32">
               (Issued United Section 31 of GST Act, 2017)
             </span>
           </center>
-          <div className="float-right mr-8 -mt-4">Date: 24 11 2022</div>
+          <div className="lg:float-right lg:mr-8 lg:-mt-4  sm:float-right sm:mr-4 sm:-mt-8">Date: 24 11 2022</div>
         </div>
 
         <div className="bg-black h-1 mt-4"></div>
@@ -48,16 +53,16 @@ function App() {
 
         {/* section 3 starts */}
         <div>
-          <div className="float-left m-8">
+          <div className="lg:float-left lg:m-8 sm:float-left sm:m-2">
             <span className="span5">Customer Name & Address</span>
             <br />
-            <span className="font-bold text-xl">M/s Sai Sparsh Hospitals</span>
+            <span className="lg:font-bold lg:text-xl sm:font-bold sm:text-xl">M/s Sai Sparsh Hospitals</span>
             <br />
             <span className="span5">#408, Hosur Road, Garvebhavi palya,</span>
             <br />
             <span className="span5">Bengaluru, PIN : 560 068.</span>
           </div>
-          <div className="float-right mr-8 mt-20 font-bold">
+          <div className="lg:float-right lg:mr-8 lg:mt-20 lg:font-bold sm:float-right sm:mr-2 sm:mt-20 sm:font-bold">
             <span className="span5">STATE CODE : 29 | </span>
             <br />
             <span className="span5">GSTIN : 29AAVFV8364R1ZK</span>
@@ -151,7 +156,8 @@ function App() {
         {/* section 6 starts */}
 
         <div className="ve2"></div>
-        <div className="float-right mr-32 -mt-32 p-2 text-center font-bold">
+        <div className="float-right mr-32 -mt-32 p-2 text-center font-bold
+        sm:float-right sm:mr-32 sm:-mt-32 sm:p-2 sm:text-center sm:mr-2 sm:font-bold">
           Authorised Signatory
           <br />
           <span>something</span>
@@ -165,7 +171,7 @@ function App() {
 
         {/* section 7 starts */}
         <div>
-          <div className="m-8 font-bold">
+          <div className="lg:m-8 lg:font-bold sm:m-2 sm:m-2 sm:text-2px sm:font-bold">
             <span className="span7">Bank Account Details : </span>
             <br />
             <span className="span7">
@@ -182,7 +188,7 @@ function App() {
             <span className="span7">Branch : Hulimavu Branch</span>
           </div>
 
-          <div className="m-8 font-bold">
+          <div className="lg:m-8 lg:font-bold sm:m-2  sm:text-2px sm:font-bold">
             <span className="span7">
               CIN : U2220KA2021PTC145375 | PIN : AALCP8652P |{" "}
             </span>
@@ -191,9 +197,9 @@ function App() {
               TAN : BLRP26513E | GSTIN : 29AALCP8652P1ZB |
             </span>
           </div>
-          <div className="float-right mr-56 -mt-48">
+          <div className="lg:float-right lg:mr-56 lg:-mt-48 sm:float-right sm:mr-2 sm:-mt-48">
             <img
-              className="h-40 w-40"
+              className="h-40 w-40 "
               src="https://i.pinimg.com/originals/07/30/db/0730dbd6e1258eb216bfe4968672f783.png"
               alt="Logo"
             />
