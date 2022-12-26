@@ -1,0 +1,50 @@
+/* starts here */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* section 1 starts here */
+
+/* section 1 ends here */
+
+/* section 2 starts here */
+
+/* section 2 ends here */
+
+/* section3 starts */
+
+/* section3 ends */
+
+
+/* section 4 starts */
+
+table{
+  width:88.6rem;
+  height:28rem;
+  border-collapse: collapse;
+}
+th{
+  border-bottom: 0.1rem solid black;
+  border: .1rem solid black;
+}
+td{
+  text-align: center;
+  border-left: .1rem solid black;
+  border-right: .1rem solid black;
+}
+
+/* section 4 ends */
+
+
+/* section 6 starts */
+
+.ve2{
+  width:0.1rem;
+  height: 8rem;
+  background-color: black;
+  margin-left: 50rem;
+}
+
+
+
