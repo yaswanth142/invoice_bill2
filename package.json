@@ -1,5 +1,5 @@
 {
-  "homepage":"https://yaswanth142.github.io/invoice_bill1",
+  "homepage": "https://yaswanth142.github.io/invoice_bill1",
   "name": "invoice1.app",
   "version": "0.1.0",
   "private": true,
@@ -9,13 +9,15 @@
     "@testing-library/user-event": "^13.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
+    "react-to-print": "^2.14.10",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
