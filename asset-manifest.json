@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/invoice_bill2/static/css/main.eef5fbea.css",
+    "main.js": "/invoice_bill2/static/js/main.6f5451fe.js",
+    "index.html": "/invoice_bill2/index.html",
+    "main.eef5fbea.css.map": "/invoice_bill2/static/css/main.eef5fbea.css.map",
+    "main.6f5451fe.js.map": "/invoice_bill2/static/js/main.6f5451fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef5fbea.css",
+    "static/js/main.6f5451fe.js"
+  ]
+}
